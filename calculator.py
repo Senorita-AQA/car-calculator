@@ -2,7 +2,7 @@ from apis import get_gas_price, get_power_price
 
 
 class Calculator:
-    def __init__(self, mileage=16000, years=2, year_loss=10):
+    def __init__(self, mileage=16000, years=3, year_loss=10):
         self.mileage = mileage
         self.cars = {}     # Car: Year Price
         self.years = years
